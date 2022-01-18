@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from concessionnaire.vente import Vente
 
+
 @dataclass
 class Seller():
     full_name: str
